@@ -1,0 +1,43 @@
+@import "tailwindcss";
+/* @plugin "daisyui"; */
+
+
+ @plugin "daisyui" {
+  /* themes: light --default, dark --prefersdark; */
+  themes: light --default;
+ }
+
+@plugin "daisyui/theme" {
+  name: "light";
+  default: true;
+  --color-primary: blue;
+  --color-secondary: teal;
+}
+/* @plugin "daisyui/theme" {
+  name: "dark";
+  default: true;
+  --color-primary: red;
+  --color-secondary: green;
+} */
+
+
+
+
+
+
+
+/* 
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;npm install tailwindcss @tailwindcss/vite
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+} */

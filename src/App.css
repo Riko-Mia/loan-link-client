@@ -1,0 +1,15 @@
+#root {
+  max-width: 1440px !important;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+*{
+    max-width: 1440px !important;
+}
+
+
+.active{
+  border-bottom: 2px solid blue !important;
+  color: Red;
+}

@@ -3,6 +3,7 @@ import axios from "axios"
 import useAuth from "./useAuth"
 
 const instance = axios.create({
+    // baseURL: 'https://loan-link-server-coral.vercel.app'
     baseURL: 'http://localhost:3000'
 })
 

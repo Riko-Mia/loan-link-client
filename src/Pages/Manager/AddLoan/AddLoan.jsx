@@ -21,7 +21,7 @@ import useAxios from '../../../Hooks/useAxios';
 import axios from 'axios';
 
 
-const AddLoan = () => {
+const AddLoan = ({loan}) => {
     
     const {user} = useAuth()
     

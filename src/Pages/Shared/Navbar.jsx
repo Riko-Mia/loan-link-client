@@ -27,7 +27,7 @@ if(user){
     const navLink = (
         <div className='text-[20px] space-x-8  lg:flex '>
             <li>
-               <NavLink to="/" className="active">Home</NavLink>
+               <NavLink to="/">Home</NavLink>
             </li>
             <li>
                 <NavLink to="/allLoans">All Loans</NavLink>

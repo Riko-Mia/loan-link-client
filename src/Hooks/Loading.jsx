@@ -16,8 +16,10 @@ import styled from 'styled-components';
 
 const Loading = () => {
   return (
-    <StyledWrapper>
+    <div className=''>
+      <StyledWrapper className='flex mt-50 m-auto items-center justify-center'>
       <section className="dots-container">
+        <div className="dot" />
         <div className="dot" />
         <div className="dot" />
         <div className="dot" />
@@ -25,6 +27,7 @@ const Loading = () => {
         <div className="dot" />
       </section>
     </StyledWrapper>
+    </div>
   );
 }
 

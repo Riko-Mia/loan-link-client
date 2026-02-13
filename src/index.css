@@ -13,6 +13,18 @@
   --color-primary: blue;
   --color-secondary: teal;
 }
+
+
+.active{
+  text-decoration: underline;
+  color: blueviolet;
+}
+
+/* .active{
+    color: blueviolet;
+    text-decoration: underline;
+
+} */
 /* @plugin "daisyui/theme" {
   name: "dark";
   default: true;
